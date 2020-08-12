@@ -70,7 +70,7 @@ assert WebUI.verifyElementPresent(findTestObject('Clinical Information/Report Bu
 
 assert WebUI.verifyElementPresent(findTestObject('Clinical Information/Report Builder/Page_Search/a_Clinical'), 2, FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.delay(1)kskdkdk
+WebUI.delay(1)
 
 String sLastName = findTestData('Input Data/Input').getValue(2, 2)
 
